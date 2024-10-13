@@ -3,7 +3,8 @@ name: Containers
 on:
   push:
     branches:
-      main
+    - main
+    - "releases/*"
   pull_request:
   workflow_call:
     inputs:
